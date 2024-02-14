@@ -20,8 +20,8 @@ const Nav = () => {
 
   return (
     <div className="sticky top-0 inset-x-0 z-50 group">
-      <header className="relative h-16 px-8 mx-auto border-b duration-200 bg-white border-ui-border-base">
-        <nav className="txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular">
+      <header className="relative h-16 px-8 mx-auto  duration-200 bg-[#1a4a01] border-ui-border-base">
+        <nav className="txt-xsmall-plus text-ui-fg-subtle flex items-center justify-between w-full h-full text-small-regular text-white">
           <div className="flex-1 basis-0 h-full flex items-center">
             <div className="block small:hidden">
               <Hamburger setOpen={toggle} />
@@ -34,9 +34,9 @@ const Nav = () => {
           <div className="flex items-center h-full">
             <Link
               href="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
+              className="txt-compact-xlarge-plus uppercase"
             >
-              Medusa Store
+              Besan Store
             </Link>
           </div>
 
@@ -49,7 +49,7 @@ const Nav = () => {
                   open={searchModalOpen}
                 />
               )}
-              <Link className="hover:text-ui-fg-base" href="/account">
+              <Link className="" href="/account">
                 Account
               </Link>
             </div>
